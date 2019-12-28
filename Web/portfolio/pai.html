@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>FOLO - Hercules Product Assembly Instructions</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+			});
+				$(document).ready(function() {
+					// $('#bigImage').style.height='400px';
+					$('#bigImage').toggle(function(){
+					    $('#bigImage').animate({'height': '1398px'}, 200);
+					}, function(){
+					    $('#bigImage').animate({'height': '300px'}, 200);
+					});
+				});
+							
+				$(document).ready(function(){
+				    $("#bigImage").hover(function(){
+				        $('#expand').addClass("makeVisible").fadeIn();
+				    }, function() {
+				        $('#expand').removeClass("makeVisible").fadeOut();
+								});
+						});
+					
+    </script>
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+  #bigImage{
+	  width:1000px;
+	  background-image:url('images/pai/h1.png'); 
+	  width:1000px; 
+	  height: 300px;
+	  margin:10px 0px;
+	  cursor:pointer;
+  }
+  #expand{
+	  position:relative;
+	  background-color:rgba(0,0,0,0.2);
+	  color:white;
+	  text-transform:uppercase;
+	  font-size:15px;
+	  font-family:Helvetica, Arial, sans-serif;
+	  font-weight:bold;
+	  padding:3px 2px 6px 3px;
+	  float:left;
+	  display:none;
+  }
+  .makeVisible{
+	  display:block;
+}
+  body{
+	background-color:#f9f9f9; 
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+				<h2 style='float:left;'>Product Assembly Instructions - Hercules bicycle</h2><h2 style='text-align:right'><a href='all.html' id='formButton'>&larr;&nbsp;all projects</a></h2>
+				<div id='bigImage'>
+					<div id='expand'>&nbsp;&darr;&nbsp;&uarr;&nbsp;</div>
+				</div>
+		    </div>
+
+		    <div id='wrapper'>
+				<h2>Bicycles are bought in boxes and carried to places, and very often, there is a need of a mechanic to help with the assembly. This quick starter guide helps anyone understand how to put together their bike, very easily.</h2>
+		        <img class='smallImage' src="images/pai/b1.png"/>				
+				<h2>Labelled steps, with the screws and motion of parts.</h2>
+		        <img class='smallImage' src="images/pai/b2.png"/>
+			</div>
+
+			<div id='rightPane'>
+
+<h1>A user should be able to quickly put together the bicycle himself, after he opens the box.</h1>
+			</div>
+		</div>
+	</div>		
+</body>
+</html>
+
+<!-- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffolography&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=recommend&amp;height=21" style="border: none; overflow: hidden; width: 140px; height: 25px; position: fixed; top: 15px; z-index: 9999; left: 660px;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/Folography" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" style='position:fixed; top:15px; left:800px; z-index:999;'>Follow @Folography</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+

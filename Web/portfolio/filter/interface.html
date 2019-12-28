@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>FOLO</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="../../js/jquery-1.4.3.js"></script>
+	<script type="text/javascript" src="../../js/jquery.corner.js"></script>
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+	        });
+	        $(document).ready(function() {
+				$('#bigImage').hide();
+				$('#closeBigImage').click(function() {
+  				  $('#bigImage').slideUp('slow', function() {});
+  				});
+				$('#formButton').click(function() {
+				  $('#bigImage').slideToggle('slow', function() {});
+				});
+	        });
+    </script>
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+  #bigImage{
+	  width:680px;
+	  background-image:url('images/generousindia/h1.png'); 
+	  height: 970px;
+	  margin:10px 0px;
+  }
+  .projectIcon{
+	  width:215px;
+	  height:215px;
+	  margin-right:10px;
+	  background-color:#ddd;
+	  float:left;
+	  margin-bottom:10px;
+	  opacity:0.5;
+  }
+  .projectIcon:hover{
+	  opacity:1;
+	  cursor:pointer;
+  }
+  .m0{
+	  margin-right:0px;
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+				<h2 style='float:left;'>Interface design related work, by us</h2><h2 style='text-align:right'><a href='../all.html' id='formButton'>&larr;&nbsp;all projects</a></h2>
+		    </div>
+			<div id='wrapper'>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/interactivecharts.png' width='251' height='251'/>"><a href='../interactivecharts.html'><img src='../thumbs/interactivecharts.png'/></a></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/klop.png' width='251' height='251'/>"><a href='../klop.html'><img src='../thumbs/klop.png'/></a></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/quickmock.png' width='251' height='251'/>"><a href='quickmock.html'><img src='../thumbs/quickmock.png'/></a></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/letslearnhindi.png' width='251' height='251'/>"><a href='../letslearnhindi.html'><img src='../thumbs/letslearnhindi.png'/></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/babajob.png' width='251' height='251'/>"><a href='../babajob.html'><img src='../thumbs/babajob.png'/></a></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/pptclicker.png' width='251' height='251'/>"><a href='../pptclicker.html'><img src='../thumbs/pptclicker.png'/></a></div>
+				<div class='projectIcon tooltip' title="<img src='../thumbs/hover/sunglass.png' width='251' height='251'/>"><a href='../sunglass.html'><img src='../thumbs/sunglass.png'/></a></div>
+			</div>
+			<div id='rightPane'>
+				<h3>other categories</h3>
+				<h2 style='margin-bottom:10px'><a href='information.html'>Information</a><br/>
+					<div style='background-color:#eaeaea; height:2px'></div>
+					<a href='mobile.html'>Mobile</a><br/>
+					<div style='background-color:#eaeaea; height:2px'></div>
+					<a href='identity.html'>Identity</a><br/>
+					<div style='background-color:#eaeaea; height:2px'></div>
+					<a  href='print.html'>Print</a></h2>			
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>
+
+<!-- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffolography&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=recommend&amp;height=21" style="border: none; overflow: hidden; width: 140px; height: 25px; position: fixed; top: 15px; z-index: 9999; left: 660px;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/Folography" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" style='position:fixed; top:15px; left:800px; z-index:999;'>Follow @Folography</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+

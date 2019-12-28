@@ -1,0 +1,99 @@
+<html>
+<head>
+    <title>FOLO - Helping USAID prevent dropouts in India</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.3.js"></script>
+	<script type="text/javascript" src="js/jquery.corner.js"></script>
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+	        });
+	        $(document).ready(function() {
+				$('#bigImage').hide();
+				$('#closeBigImage').click(function() {
+  				  $('#bigImage').slideUp('slow', function() {});
+  				});
+				$('#formButton').click(function() {
+				  $('#bigImage').slideToggle('slow', function() {});
+				});
+	        });
+    </script>
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+	body{
+		background-color:#f9f9f9;
+		}
+	
+  #bigImage{
+	  width:1000px;
+	  background-image:url('images/usaid/h1.png'); 
+	  width:1000px; 
+	  height:570px;
+	  margin:10px 0px;
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+				<h2 style='float:left;'>Helping USAID prevent dropouts in India</h2><h2 style='text-align:right'><a href='all.html' id='formButton'>&larr;&nbsp;all projects</a></h2>
+
+				<div id='bigImage'>
+				</div>
+		    </div>
+
+		    <div id='wrapper'>
+				<h2>The family journal came up as an interesting exercise because it was supposed to be used by the parents of the children, who were at the risk of dropping out of schools.</h2>
+		        <img class='smallImage' src="images/usaid/b2.png"/>
+				<h2>The journal was aimed at helping the parents engage with the kids, and helping them learn about the importance of the kids' going to school.</h2>
+		        <img class='smallImage' src="images/usaid/b3.png"/>
+				<h2>The most important aspect of the journal was the attendance sheet, where the parents are supposed to encirlce their child's attendance in school, and in case of absence, also explain the reason of absence.</h2>
+		        <img class='smallImage' src="images/usaid/b4.png"/>				
+				<h2>The journal also features a snakes and ladders game which very subtly speaks about the good and bad practices that a parent can help the child with, with regard to the school activities and studies.</h2>
+		        <img class='smallImage' src="images/usaid/b1.png"/>
+			</div>
+
+			<div id='rightPane'>
+				<h1>1 in 3 children in the samastipur district in India is at the risk of dropping out in class 5th.</h1>
+			</div>
+
+		</div>
+	</div>
+		
+</body>
+</html>
+
+<!-- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffolography&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=recommend&amp;height=21" style="border: none; overflow: hidden; width: 140px; height: 25px; position: fixed; top: 15px; z-index: 9999; left: 660px;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/Folography" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" style='position:fixed; top:15px; left:800px; z-index:999;'>Follow @Folography</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+

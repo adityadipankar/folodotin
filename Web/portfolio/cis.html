@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>FOLO - Promoting Openness and Access to Knowledge</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+	        });
+    </script>
+
+    <script type="text/javascript">
+
+	$(document).ready(function() {
+		// $('#bigImage').style.height='400px';
+		$('#bigImage').toggle(function(){
+		    $('#bigImage').animate({'height': '1007px'}, 200);
+		}, function(){
+		    $('#bigImage').animate({'height': '300px'}, 200);
+		});
+	});
+	
+	$(document).ready(function(){
+	    $("#bigImage").hover(function(){
+	        $('#expand').addClass("makeVisible").fadeIn();
+	    }, function() {
+	        $('#expand').removeClass("makeVisible").fadeOut();
+					});
+			});
+		$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+
+    </script>
+	
+	<style>
+	body{
+		background-color:#f9f9f9;
+		}
+	
+  #bigImage{
+	  background-image:url('images/cis/h1.png'); 
+	  width:1000px; 
+	  height:300px;
+	  margin:10px 0px;
+	  background-color:#eaeaea;
+	  cursor:pointer;
+  }
+  #expand{
+	  position:relative;
+	  background-color:rgba(0,0,0,0.6);
+	  color:#eaeaea;
+	  text-transform:uppercase;
+	  font-size:10px;
+	  font-family:Helvetica, Arial, sans-serif;
+	  font-weight:bold;
+	  padding:3px 2px;
+	  float:left;
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+					<h2 style='float:left;'>Helping CIS promote openness and access to knowledge</h2><h2 style='text-align:right'><a href='all.html' id='formButton'>&larr;&nbsp;all projects</a></h2>
+
+				<div id='bigImage'>
+					<div id='expand'>&nbsp;&darr;&nbsp;&uarr;&nbsp;</div>
+				</div>
+		    </div>
+
+		    <div id='wrapper'>
+				<div id='info'>
+					<h2 style='clear:both;margin-bottom:20px;'>CIS is celebrating it's 5th anniversary and it wanted to show it's work in the area of openness and access to knowledge, through a series of infographics, which was definitely an opportunity to not only promote their efforts but also an opportunity to sensitise the viewers towards the otherwise unseen issues that the visually impaired or the general internet user faces, today.</h2>
+				</div>
+		        <img class='smallImage' src="images/cis/p3.png"/>
+		        <img class='smallImage' src="images/cis/b4.png"/>
+		        <img class='smallImage' src="images/cis/p2.png"/>				
+		        <img class='smallImage' src="images/cis/b5.png"/>
+		        <img class='smallImage' src="images/cis/b6.png"/>
+		        <img class='smallImage' src="images/cis/p1.png"/>
+				<h2>The viewers could also take back links to the articles, they had just read, as tear-aways.</h2>
+		        <img class='smallImage' src="images/cis/b2.png"/>
+		        <img class='smallImage' src="images/cis/b1.png"/>
+			</div>
+
+			<div id='rightPane'>
+				<h1>Babajob is improving lives by helping everyone find better jobs.<a href='http://www.folography.com/filter/information/Mumbai-Metro-Visualized'><br/>More&rarr;</a></h1>
+			</div>
+		</div>
+	</div>
+		
+</body>
+</html>

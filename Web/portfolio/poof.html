@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>FOLO - Disappearance of the renewable resource base</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+	        });
+						
+			$(document).ready(function() {
+				// $('#bigImage').style.height='400px';
+				$('#bigImage').toggle(function(){
+				    $('#bigImage').animate({'height': '818px'}, 200);
+				}, function(){
+				    $('#bigImage').animate({'height': '300px'}, 200);
+				});
+			});
+			
+			$(document).ready(function(){
+			    $("#bigImage").hover(function(){
+			        $('#expand').addClass("makeVisible").fadeIn();
+			    }, function() {
+			        $('#expand').removeClass("makeVisible").fadeOut();
+							});
+					});
+			
+    </script>
+
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+	  #bigImage{
+		  background-image:url('images/poof/h1.png'); 
+		  width:1000px; 
+		  height:300px;
+		  margin:10px 0px;
+		  background-color:#eaeaea;
+		  cursor:pointer;
+	  }
+	  #expand{
+		  position:relative;
+		  background-color:rgba(0,0,0,0.6);
+		  color:#eaeaea;
+		  text-transform:uppercase;
+		  font-size:10px;
+		  font-family:Helvetica, Arial, sans-serif;
+		  font-weight:bold;
+		  padding:3px 2px;
+		  float:left;
+	  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+				<h2 style='float:left;'>Visualizing the timeline of the diappearance of our non-renewable energy resource base</h2><h2 style='text-align:right'><a href='all.html' id='formButton'>&larr;&nbsp;all projects</a></h2>
+				<div id='bigImage'>
+					<div id='expand'>&nbsp;&darr;&nbsp;&uarr;&nbsp;</div>
+				</div>
+		    </div>
+		    <div id='wrapper'>
+		        <img class='smallImage' src="images/poof/b1.png"/>				
+				<h2>The seriousness of this matter is shown through everyday objects in the icons.</h2>
+		        <img class='smallImage' src="images/poof/b2.png"/>
+				<h2>Starting from now, a timeline is shown till when all of the renewable resources of energy will be near-diminished.</h2>
+			</div>
+			<div id='rightPane'>
+				<h1>In 2027, batteries will become as expensive as gold.</h1>
+			</div>
+
+		</div>
+	</div>
+		
+</body>
+</html>
