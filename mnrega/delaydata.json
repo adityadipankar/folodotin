@@ -1,0 +1,275 @@
+ {
+    "name": "state-wise payments",
+     "children": [
+    {
+        "name": "RAJASTHAN", "color" : 0.007,"size": 15589134,"percent": 10.1723,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 5840257,"percent": 32},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 6386623,"percent": 34.9},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 2239293, "percent": 12.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1122961, "percent": 6.2}
+        ]
+    },
+    {
+        "name": "MEGHALAYA","color" : 0.007,"size": 1390812,"percent": 0.9076,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 141570,"percent": 8.5},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 158395,"percent": 9.5},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 146069,"percent": 8.8},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 944778,"percent": 56.6}
+        ]
+    },
+    {
+        "name": "WEST BENGAL", "color" : 0.007,"size": 30895776,"percent": 20.1603,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 6558433,"percent": 17.1},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 9428740,"percent": 24.6},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 6967836,"percent": 18.2},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 7940767,"percent": 20.8}
+        ]
+    },
+    {
+        "name": "KERALA", "color" : 0.007,"size": 15785797,"percent": 10.3007,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 5109732,"percent": 25.9},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 5967983,"percent": 30.3},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 2749548,"percent": 14},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1958534,"percent": 10}
+        ]
+    },
+    {
+        "name": "PUNJAB","color" : 0.007,"size": 1379447,"percent": 0.9002,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 455860,"percent": 26.5},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 589059,"percent": 34.2},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 211450,"percent": 12.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 123078,"percent": 7.2}
+        ]
+    },
+    {
+        "name": "JAMMU AND KASHMIR","color" : 0.007,"size": 1759140,"percent": 1.1479,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 312850,"percent": 13.6},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 373836,"percent": 16.2},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 282108,"percent": 12.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 790346,"percent": 34.3}
+        ]
+    },
+    {
+        "name": "UTTARAKHAND","color" : 0.007,"size": 1908807,"percent": 1.2456,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 207518,"percent": 8},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 311676,"percent": 12},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 283342,"percent": 10.9},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1106271,"percent": 42.4}
+        ]
+    },
+    {
+        "name": "BIHAR","color" : 0.007,"size": 5950124,"percent": 3.8826,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 1250138,"percent": 15.3},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 1500406,"percent": 18.4},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 971101,"percent": 11.9},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 2228479,"percent": 27.2}
+        ]
+    },
+    {
+        "name": "KARNATAKA","color" : 0.007,"size": 6559513,"percent": 4.2803,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 2272584,"percent": 24.8},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 2223275,"percent": 24.3},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 1010132,"percent": 11.1},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1053522,"percent": 11.5}
+        ]
+    },
+    {
+        "name": "MAHARASHTRA","color" : 0.007,"size": 6402400,"percent": 4.1778 ,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 2263681,"percent": 24.5},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 2378276,"percent": 25.7},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 953800,"percent": 10.4},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 806643,"percent": 8.8}
+       ]
+    },
+    {
+        "name": "NAGALAND","color" : 0.007,"size": 1109917,"percent": 0.7243,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 118980,"percent": 7.4},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 284338,"percent": 17.7},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 236571,"percent": 14.7},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 470028,"percent": 29.2}
+        ]
+    },
+    {
+        "name": "CHANDIGARH","color" : 0.007,"size": 41,"percent": 0.0001,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 0,"percent": 0},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 41,"percent": 67.3},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 0,"percent": 0},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 0,"percent": 0}
+        ]
+    },
+    {
+        "name": "ARUNACHAL PRADESH","color" : 0.007,"size": 218999,"percent": 0.143,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 39486,"percent": 12.2},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 50389,"percent": 15.5},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 24776,"percent": 7.6},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 104348,"percent": 32}
+        ]
+    },
+    {
+        "name": "ANDAMAN AND NICOBAR","color" : 0.007,"size": 7827,"percent": 0.0052,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 3906,"percent": 32.1},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 3155,"percent": 25.9},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 766,"percent": 6.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 0,"percent": 0}
+        ]
+    },
+    {
+        "name": "MADHYA PRADESH","color" : 0.007,"size": 14170954,"percent": 9.2469,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 8128270,"percent": 36.4},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 4308218,"percent": 19.3},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 998303,"percent": 4.5},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 736163,"percent": 3.3}
+        ]
+    },
+    {
+        "name": "GUJARAT","color" : 0.007,"size": 2633465,"percent": 1.7184,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 1051023,"percent": 24.6},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 993470,"percent": 23.3},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 393155,"percent": 9.2},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 195817,"percent": 4.6}
+        ]
+    },
+    {
+        "name": "LAKSHADWEEP","color" : 0.007,"size": 740,"percent": 0.0005,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 371,"percent": 30.007},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 148,"percent": 12.1},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 59,"percent": 4.9},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 162,"percent": 13.2}
+            ]
+    },
+    {
+        "name": "GOA","color" : 0.007,"size": 11603,"percent":0.0076 ,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 8373,"percent": 36.8},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 2594,"percent": 11.4},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 427,"percent": 1.9},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 209,"percent": 1}
+        ]
+    },
+    {
+        "name": "ODISHA","color" : 0.007,"size": 6018738,"percent": 3.9274,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 3377611,"percent": 28.1},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 1708838,"percent": 14.2},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 502611,"percent": 4.2},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 429678,"percent": 3.6}
+        ]
+    },
+    {
+        "name": "PUDUCHERRY","color" : 0.007,"size": 105061,"percent": 0.0186,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 62756,"percent": 29.6},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 28682,"percent": 13.6},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 9883,"percent": 4.7},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 3740,"percent": 1.8}
+        ]
+    },
+    {
+        "name": "HIMACHAL PRADESH","color" : 0.007,"size": 1272696,"percent": 0.8305,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 647696,"percent": 24.9},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 310570,"percent": 12},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 154490,"percent": 6},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 159940,"percent": 6.2}
+        ]
+    },
+    {
+        "name": "CHHATTISGARH","color" : 0.007,"size": 11551136,"percent": 7.5374,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 3943861,"percent": 16.4},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 3800834,"percent": 15.8},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 1926356,"percent": 8.1},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1880085,"percent": 7.9}
+        ]
+    },
+    {
+        "name": "HARYANA","color" : 0.007,"size": 499613,"percent": 0.3261,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 212071,"percent": 14.8},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 157200,"percent": 11},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 61929,"percent": 4.4},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 68413,"percent": 4.8}
+       ]
+    },
+    {
+        "name": "SIKKIM","color" : 0.007,"size": 105116,"percent": 0.0186,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 27431,"percent": 7.5},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 27548,"percent": 7.5},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 15731,"percent": 4.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 34406,"percent": 9.4}
+        ]
+    },
+    {
+        "name": "UTTAR PRADESH","color" : 0.007,"size": 7017683,"percent": 4.5793,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 2929523,"percent": 10.6},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 2115133,"percent": 7.7},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 817354,"percent": 3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 1155673,"percent": 4.2}
+        ]
+    },
+    {
+        "name": "TAMIL NADU","color" : 0.007,"size": 19088386,"percent": 12.4557,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 13135254,"percent": 15.3},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 4430261,"percent": 5.2},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 857812,"percent": 1},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 665059,"percent": 0.8}
+        ]
+    },
+    {
+        "name": "MANIPUR","color" : 0.007,"size": 348412,"percent": 0.007274,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 83583,"percent": 4.9},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 63010,"percent": 3.7},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 71464,"percent": 4.2},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 130355,"percent": 7.6}
+        ]
+    },
+    {
+        "name": "ASSAM","color" : 0.007,"size": 693599,"percent": 0.4526,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 183359,"percent": 3.9},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 186348,"percent": 3.9},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 120144,"percent": 2.5},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 203748,"percent": 4.3}
+       ]
+    },
+    {
+        "name": "JHARKHAND","color" : 0.007,"size": 366749,"percent": 0.007394,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 247034,"percent": 3.5},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 76432,"percent": 1.1},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 24036,"percent": 0.4},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 19247,"percent": 0.3}
+        ]
+    },
+    {
+        "name": "TRIPURA","color" : 0.007,"size": 409501,"percent": 0.007673,
+            "children": [ 
+            {"name":"Delay 15-30 days", "color" : 0.04, "size": 281606,"percent": 3.6},
+            {"name":"Delay 30-60 days", "color" : 0.03, "size": 81230,"percent": 1.1},
+            {"name":"Delay 60-90 days", "color" : 0.01, "size": 21661,"percent": 0.3},
+            {"name":"Delay more than 90 days", "color" : 0.005, "size": 25004,"percent": 0.4}
+        ]
+    }
+   ]
+}
