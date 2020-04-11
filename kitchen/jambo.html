@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title>FOLO</title>
+	<link rel="stylesheet" type="text/css" href="../../css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="../../css/css.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.tooltipster.min.js"></script>    
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+	
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+			});
+				$(document).ready(function() {
+					// $('#bigImage').style.height='400px';
+					$('#bigImage').toggle(function(){
+					    $('#bigImage').animate({'height': '658px'}, 200);
+					}, function(){
+					    $('#bigImage').animate({'height': '300px'}, 200);
+					});
+				});
+							
+				$(document).ready(function(){
+				    $("#bigImage").hover(function(){
+				        $('#expand').addClass("makeVisible").fadeIn();
+				    }, function() {
+				        $('#expand').removeClass("makeVisible").fadeOut();
+								});
+						});
+					
+    </script>
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+  #bigImage{
+	  width:1000px;
+	  margin:10px 0px;
+	  cursor:pointer;
+  }
+  #expand{
+	  position:relative;
+	  background-color:rgba(0,0,0,0.2);
+	  color:white;
+	  text-transform:uppercase;
+	  font-size:15px;
+	  font-family:Helvetica, Arial, sans-serif;
+	  font-weight:bold;
+	  padding:3px 2px 6px 3px;
+	  float:left;
+	  display:none;
+  }
+  .makeVisible{
+	  display:block;
+}
+  body{
+	background-color:#f9f9f9; 
+  }
+  .royale{
+	  font-family: 'Parisienne', cursive;
+	  font-size: 32px;
+	  color: #f4f4f4;
+	  text-shadow: 0px 1px 4px rgba(0,0,0,1);	 
+	  -mozilla-text-shadow:  0px 1px 4px rgba(0,0,0,1);
+	  margin-top: 4px;
+  }
+  #wrapper h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: 1px solid #c1c1c1;
+  float: left;
+  padding: 1px 4px;
+  }
+  #wrapper h2{
+	  clear:both;
+  }
+  .funky{
+  	font-family: 'Reenie Beanie', cursive;
+	color:#777;
+	font-size: 24px;
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+
+			<div id='header'>
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>				
+				<h2 style='text-align:right'><a href='../../index.html' id='formButton'>&larr;&nbsp;back</a></h2>
+		    </div>
+
+		    <div id='wrapper'>
+				<h6 style='margin-top: 10px;margin-bottom: -18px;'>Jambo</h1>
+				<h2 class='royale'>Early evening banana smoothie</h2>
+				<div style='margin-top:20px;background-color:#eaeaea; height:2px'></div>
+				<h3>PREPARATION TIME</h3>
+				<h2>10 mins</h2>
+				<div style='margin-top:20px;background-color:#eaeaea; height:2px'></div>
+				<h3>ingredients / serves 2 people</h3>
+				<h2>2 Bananas</br>&frac12;&nbsp;cup milk</br>&frac14;&nbsp;tsp coffee</h2>
+				<div style='margin-top:20px;background-color:#eaeaea; height:2px'></div>
+				<h3>step 1</h3>
+				<h2 class='funky'>Start with 2 bananas</h2>
+				<img src='j1.png'/>
+				<h3>step 2</h3>
+				<h2 class='funky'>Peel the bananas &amp; slice them</h2>
+				<img src='j2.png'/>
+				<h3>step 3</h3>
+				<h2 class='funky'>Pour the bananas with 250 ml milk and 1/4 tsp coffee into the blender</h2>
+				<img src='j3.png'/>
+				<h3>step 4</h3>
+				<h2 class='funky'>Run the blender for 10 seconds</h2>
+				<img src='m5.gif'/>
+				<h3>step 5</h3>
+				<h2 class='funky'>Serve in two glasses</h2>
+				<img src='m6.png'/>
+				<h3>step 6</h3>
+				<h2 class='funky'>Chill.</h2>
+			</div>
+
+			<div id='rightPane'>
+				<div id='shareTheLove'>
+					<h2 class='titleNew' style='margin-bottom:10px;'>Share the love</h2>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://folography.com/portfolio/kitchen/jambo.html" data-text="Try this quick &amp; yummy banana smoothie by @folography, now!" data-size="large">Tweet</a>
+			</div>
+				<h2 class='titleNew' style='margin-top: 23px;'>More Chillers</h2>
+				<h1 style='margin-top: 0px;'><a href='http://www.folography.com/portfolio/kitchen/manilla.html'>Manilla&nbsp;&rarr;</a></h1><br/>
+				<h3 style='margin-top: -67px;'>Cool refreshing mango smoothie</h3>
+				<div style='background-color:#eaeaea; height:2px'></div>
+				<h1 style='margin-top: 0px;'><a href='http://www.folography.com/portfolio/kitchen/blackjackall.html'>Black Jack-All&nbsp;&rarr;</a></h1><br/>
+				<h3 style='margin-top: -67px;'>An evening dessert</h3>
+				<div style='background-color:#eaeaea; height:2px'></div>
+			</div>
+		</div>
+	</div>		
+</body>
+</html>
