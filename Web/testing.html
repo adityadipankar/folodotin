@@ -1,0 +1,870 @@
+
+<html>
+<head>
+    <title>FOLO</title>
+	<link rel="icon" type="image/ico" href="/images/favicon.ico"/>
+	<script type="text/javascript" src="js/soundmanager2.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38114636-1']);
+	  _gaq.push(['_setDomainName', 'folography.com']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+		var cSharpValue=0;
+		var dValue=0;
+		var dSharpValue=0;
+		var eValue=0;
+		
+	</script>
+
+	<script>
+				
+				soundManager.setup({
+			  url: '/path/to/swfs/',
+			  flashVersion: 9,
+			  preferFlash: false,
+			  onready: function() {
+			},
+			  ontimeout: function() {
+			  },
+			  defaultOptions: {
+			    volume: 50
+			  }
+			});
+			
+	</script>
+	<script>
+	
+					$(document).ready(function() {
+						
+						$('.volumeButton').hover(function)	{
+						case $('#vol1').hover():$('voulmeButton').addClass('volmeButton');$('#vol1').addClass('volumeDark');
+						case $('#vol2').hover():$('voulmeButton').addClass('volmeButton');$('#vol1').addClass('volumeDark');$('#vol2').addClass('volumeDark');
+						case $('#vol3').hover():$('voulmeButton').addClass('volmeButton');$('#vol1').addClass('volumeDark');$('#vol2').addClass('volumeDark');$('#vol3').addClass('volumeDark');
+						case $('#vol4').hover():$('voulmeButton').addClass('volmeButton');$('#vol1').addClass('volumeDark');$('#vol2').addClass('volumeDark');$('#vol3').addClass('volumeDark');$('#vol4').addClass('volumeDark');
+							}
+										
+										
+						}
+						
+							$("#cSharp").click(function() {			// Method 1 : Can't loop, plays successfully
+										$("#cSharp").addClass('tanpuraButtonHide');
+										$("#cSharpStop").removeClass('tanpuraButtonHide');
+										soundManager.setup({
+									  url: '/path/to/swfs/',
+									  flashVersion: 9,
+									  preferFlash: false,
+									  onready: function() {
+											  						var soundCSharp = soundManager.createSound({url: 'csharp.mp3', id:'cSharpTanpura'});
+											  						// soundManager.pauseAll();
+											  						// soundManager.togglePause('cSharpTanpura',{loops:500});
+											soundCSharp.play({
+												loops: 500
+											});
+											// $('#cSharp').toggleClass("green");
+											// $("#cSharp").addClass("green");
+										},
+										  ontimeout: function() {
+										  },
+										  defaultOptions: {
+										    volume: 50,
+										  }
+										});
+							
+							});
+							
+							$("#cSharpStop").click(function() {
+								$("#cSharpStop").addClass('tanpuraButtonHide');
+								$("#cSharp").removeClass('tanpuraButtonHide');
+								soundManager.setup({
+							  url: '/path/to/swfs/',
+							  flashVersion: 9,
+							  preferFlash: false,
+							  onready: function() {
+									  						var soundCSharp = soundManager.createSound({url: 'csharp.mp3', id:'cSharpTanpura'});
+									soundCSharp.stop();
+								},
+								  ontimeout: function() {
+								  },
+								  defaultOptions: {
+								    volume: 50,
+								  }
+								});
+							});
+
+							$("#d").click(function() {			// Method 1 : Can't loop, plays successfully
+										$("#d").addClass('tanpuraButtonHide');
+										$("#dStop").removeClass('tanpuraButtonHide');
+										soundManager.setup({
+									  url: '/path/to/swfs/',
+									  flashVersion: 9,
+									  preferFlash: false,
+									  onready: function() {
+											  						var soundCSharp = soundManager.createSound({url: 'd.mp3', id:'dTanpura'});
+											  						// soundManager.pauseAll();
+											  						// soundManager.togglePause('cSharpTanpura',{loops:500});
+											soundCSharp.play({
+												loops: 500
+											});
+											// $('#cSharp').toggleClass("green");
+											// $("#cSharp").addClass("green");
+										},
+										  ontimeout: function() {
+										  },
+										  defaultOptions: {
+										    volume: 50,
+										  }
+										});
+							
+							});
+							
+							$("#dStop").click(function() {
+								$("#dStop").addClass('tanpuraButtonHide');
+								$("#d").removeClass('tanpuraButtonHide');
+								soundManager.setup({
+							  url: '/path/to/swfs/',
+							  flashVersion: 9,
+							  preferFlash: false,
+							  onready: function() {
+									  						var soundCSharp = soundManager.createSound({url: 'd.mp3', id:'dTanpura'});
+									soundCSharp.stop();
+								},
+								  ontimeout: function() {
+								  },
+								  defaultOptions: {
+								    volume: 50,
+								  }
+								});
+							});
+							
+							$("#dSharp").click(function() {			// Method 1 : Can't loop, plays successfully
+										$("#dSharp").addClass('tanpuraButtonHide');
+										$("#dSharpStop").removeClass('tanpuraButtonHide');
+										soundManager.setup({
+									  url: '/path/to/swfs/',
+									  flashVersion: 9,
+									  preferFlash: false,
+									  onready: function() {
+											  						var soundCSharp = soundManager.createSound({url: 'dsharp.mp3', id:'dSharpTanpura'});
+											  						// soundManager.pauseAll();
+											  						// soundManager.togglePause('cSharpTanpura',{loops:500});
+											soundCSharp.play({
+												loops: 500
+											});
+											// $('#cSharp').toggleClass("green");
+											// $("#cSharp").addClass("green");
+										},
+										  ontimeout: function() {
+										  },
+										  defaultOptions: {
+										    volume: 50,
+										  }
+										});
+							
+							});
+							
+							$("#dSharpStop").click(function() {
+								$("#dSharpStop").addClass('tanpuraButtonHide');
+								$("#dSharp").removeClass('tanpuraButtonHide');
+								soundManager.setup({
+							  url: '/path/to/swfs/',
+							  flashVersion: 9,
+							  preferFlash: false,
+							  onready: function() {
+									  						var soundCSharp = soundManager.createSound({url: 'dsharp.mp3', id:'dSharpTanpura'});
+									soundCSharp.stop();
+								},
+								  ontimeout: function() {
+								  },
+								  defaultOptions: {
+								    volume: 50,
+								  }
+								});
+							});
+
+							$("#e").click(function() {			// Method 1 : Can't loop, plays successfully
+										$("#e").addClass('tanpuraButtonHide');
+										$("#eStop").removeClass('tanpuraButtonHide');
+										soundManager.setup({
+									  url: '/path/to/swfs/',
+									  flashVersion: 9,
+									  preferFlash: false,
+									  onready: function() {
+											  						var soundCSharp = soundManager.createSound({url: 'e.mp3', id:'eTanpura'});
+											  						// soundManager.pauseAll();
+											  						// soundManager.togglePause('cSharpTanpura',{loops:500});
+											soundCSharp.play({
+												loops: 500
+											});
+											// $('#cSharp').toggleClass("green");
+											// $("#cSharp").addClass("green");
+										},
+										  ontimeout: function() {
+										  },
+										  defaultOptions: {
+										    volume: 50,
+										  }
+										});
+							
+							});
+							
+							$("#eStop").click(function() {
+								$("#eStop").addClass('tanpuraButtonHide');
+								$("#e").removeClass('tanpuraButtonHide');
+								soundManager.setup({
+							  url: '/path/to/swfs/',
+							  flashVersion: 9,
+							  preferFlash: false,
+							  onready: function() {
+									  						var soundCSharp = soundManager.createSound({url: 'e.mp3', id:'eTanpura'});
+									soundCSharp.stop();
+								},
+								  ontimeout: function() {
+								  },
+								  defaultOptions: {
+								    volume: 50,
+								  }
+								});
+							});
+							
+					});
+	
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+	        });
+	        $(document).ready(function() {
+
+				$('#bigImage').hide();
+				$('#formButton').click(function() {
+				  $('#bigImage').slideToggle('slow', function() {});
+				});
+				$('#closeBigImage').click(function() {
+				  $('#bigImage').slideToggle('slow', function() {});
+				});
+
+	        });
+
+	        $(document).ready(function() {
+
+				$('#aditya').click(function() {
+				// $('.person').hide("slow");
+				$('.boygirl').removeClass('bright');
+				$('#aditya').addClass('bright');
+				$("#adityaBox").toggle("slow");
+			});
+			});
+	        $(document).ready(function() {
+				$('#palakBox').hide();
+
+				$('#palak').click(function() {
+					$('.boygirl').removeClass('bright');
+					$('#palak').addClass('bright');
+					// $('.person').hide("slow");
+				$("#palakBox").toggle("slow");
+			});
+			});
+	        $(document).ready(function() {
+				$('#priyankaBox').hide();
+
+				$('#priyanka').click(function() {
+					$('.boygirl').removeClass('bright');
+					$('#priyanka').addClass('bright');
+					// $('.person').hide("slow");
+				$("#priyankaBox").toggle("slow");
+			});
+			});
+	        $(document).ready(function() {
+				$('#arnavBox').hide();
+
+				$('#arnav').click(function() {
+					$('.boygirl').removeClass('bright');
+					$('#arnav').addClass('bright');
+					// $('.person').hide("slow");
+				$("#arnavBox").toggle("slow");
+			});
+			});
+
+
+    </script>
+
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	
+	</script>
+    <style>
+	.faded{
+		opacity:0.5;
+	}
+	.bright{
+		opacity:1;
+	}
+        body{
+            margin:0;
+            font-family: 'Merriweather Sans', sans-serif;
+            color:#333;
+			background-color:#f9f9f9;
+        }
+        #header{
+            color:#444444;
+            font-weight:300;
+            padding:5px 0px 5px 0px;
+            font-size:13px;
+            display:block;
+            width:100%;
+			border-bottom: 10px solid #eaeaea;
+			margin-bottom:10px;
+        }
+		#headerImg{
+			background-image:url('../images/fologo.png');
+			overflow:hidden;
+			text-indent:100%;
+			white-space:nowrap;			
+			width:120px;
+			height:70px;
+			margin:10px 0px 10px 0px;
+			display:block;
+		}
+		#headerImg a{
+		  text-decoration:none;
+	  	}
+        #wrapper{
+            width:680px;
+			float: left; 
+			margin-right: 18px;       
+		}
+        .title{
+            font-weight:800;
+            font-size:15px;
+        }
+        .bodytext{
+            font-weight: 300;
+            font-size: 11px;
+            margin-left: 20px;
+            max-width: 200px;
+            margin-top: 35px;
+            line-height: 17px;
+        }
+        .button{
+			padding:10px 0px 10px 20px;
+			border-bottom:4px solid #e5e5e5;
+			color:#333333;
+			font-size:40px;
+		}
+        .smallButton{
+			padding:5px 0px 10px 20px;
+			color:#999;
+			font-size:15px;
+		}
+        .smallButton:hover{
+			color:#333;
+		}
+        .button:hover{
+			color:#e95524;
+        }
+        a{
+            text-decoration:none;
+			cursor:pointer;
+        }
+		h1{
+            font-family: Helvetica, Arial, sans-serif;
+            color:#999;
+			margin-top:20px;
+			font-size: 54px;
+			letter-spacing:-4px;
+			line-height: 52px;
+		}
+		h3{
+			font-family: Helvetica, Arial, sans-serif;
+			color: #999;
+			font-size: 10px;
+			text-transform: uppercase;	
+		}
+		h1 a{
+            font-family: Helvetica, Arial, sans-serif;
+            color:#ef4c45;
+			font-size:21px;
+			letter-spacing:-1px;
+		}
+		h1 a:hover{
+            color:#333;
+		}
+		h2{
+            font-family: Helvetica, Arial, sans-serif;
+            color:#888;
+			font-size:21px;
+			letter-spacing:-1px;
+			margin:0px;
+		}
+		h2 a{
+            font-family: Helvetica, Arial, sans-serif;
+			color:#ef4c45;
+		}
+		h2 a:hover{
+            color:#444;
+		}
+
+		.ml20{
+			margin-left:20px;
+		}
+		.placeImage{
+			opacity:0.5;
+			float:left;
+			margin-right:5px;
+		}
+		.placeImage:hover{
+			opacity:1;
+		}
+		.personImage{
+			opacity:0.5;
+			float:left;
+			margin-right:5px;			
+		}
+		.projectImage{
+			opacity:0.5;
+			float:left;
+			margin-right:5px;
+			cursor:pointer;
+			margin-bottom:10px;
+		}
+		.projectImage:hover{
+			opacity:1;
+		}
+		#thePeople{
+			clear:both;
+/*			border-top: 4px solid #e5e5e5;*/
+		}
+		#headerText{
+            font-family: Helvetica, Arial, sans-serif;
+            color:#999999;
+			font-size:21px;
+			letter-spacing:-1px;			
+			margin-left:20px;
+			margin-bottom:20px;
+			font-weight:bold;
+		}
+		#thePlace{
+			display:block;
+			clear:both;
+		}
+		#credits{
+			clear:both;
+            font-family: Helvetica, Arial, sans-serif;
+            color:#777;
+			font-size:12px;
+			font-weight:normal;
+			line-height: 16px;
+			margin-top:20px;
+/*			letter-spacing:1px;*/
+		}
+		#portfolio{
+			clear: both;
+			font-family: Helvetica, Arial, sans-serif;
+			color: #999;
+			font-size: 10px;
+			font-weight: normal;
+			margin-top: 10px;
+			float: left;
+			padding-top: 10px;
+/*			letter-spacing:1px;*/
+		}
+		#info{
+			clear: both;
+			font-family: Helvetica, Arial, sans-serif;
+			color: #999;
+			font-size: 20px;
+			font-weight: normal;
+			margin-top: 20px;
+			float: left;
+			padding-top: 10px;
+/*			letter-spacing:1px;*/
+		}
+		#thePeople{
+			clear: both;
+			font-family: Helvetica, Arial, sans-serif;
+			color: #999;
+			font-size: 10px;
+			font-weight: normal;
+			margin-top: 10px;
+			float: left;
+			padding-top: 10px;
+			width:680px;
+/*			letter-spacing:1px;*/
+		}
+		#credits{
+
+		}
+		#credits a{
+			color:#777;
+		}
+		.my-custom-theme {
+/*			border: 2px solid #000;*/
+			background: #4c4c4c;
+			color: #fff;
+		}
+		#resizable { width: 150px; height: 150px; padding: 0.5em; }
+		  #resizable h3 { text-align: center; margin: 0; }
+		  .ui-resizable-helper { border: 2px dotted #00F; }
+		  #container{
+				width: 1000px;
+				margin: 0 auto;
+				padding: 0px 20px;
+				background-color: white;
+				box-shadow: 0px 0px 948px rgba(235,79,68,1.5);
+		  }
+		  #superContainer{
+		  }
+		  #rightPane{
+			  width: 300px;
+			  position: relative;
+			  float: left;
+			  margin-top:10px;
+		  }
+		  #musicPlayer{
+		  	margin-top: -20px;
+			margin-bottom:50px;
+		  }
+		  .titleNew{
+			  border-left: 4px solid #eaeaea;
+			  padding-top: 5px;
+			  padding-left: 10px;
+			  border-top: 4px solid #eaeaea;
+			  padding-bottom: 5px;
+		  }
+		  #bigImage{
+			  width:1000px;
+			  height:520px;
+/*			  background-image:url('images/engagement.png');*/
+		  }
+			
+		  #closeBigImage{
+			  position: relative;
+			  top: 10px;
+			  left: -1px;
+			  background-image: url('images/close.png');
+			  height: 20px;
+			  width: 20px;
+			  cursor: pointer;
+			  background-position: top;
+			  z-index: 900;
+		  }
+		  #closeBigImage:hover{
+			  background-position:bottom;
+		  }
+		  #slideshow {
+		      position:relative;
+		      height:500px;
+		  }
+
+		  #slideshow IMG {
+		      position:absolute;
+		      top:0;
+		      left:0;
+		      z-index:8;
+		  }
+
+		  #slideshow IMG.active {
+		      z-index:10;
+		  }
+
+		  #slideshow IMG.last-active {
+		      z-index:9;
+		  }
+		  #peopleTopHalf{
+			  float:left;
+			  clear:both;
+		  }
+		  #peopleBottomHalf{
+			  clear:both;
+			  float:left;
+		  }
+		  .bright{
+			  opacity:1;
+		  }
+		  .person{
+		  	
+		  }
+		  .twitter-follow-button{
+			  margin:5px -6px;
+		  }
+		  #tanpura{
+			  display:block;
+			  clear:both;
+			  width:300px;
+			  height:130px;
+		  }
+		  .tanpuraButton{
+/*			  border-radius:5px;*/
+			  background-color:#999;
+			  font-family:Helvetica, Arial;
+			  width:50px;
+			  height:50px;
+			  float:left;
+			  margin-right:10px;
+			  color:white;
+  			font-size:28px;
+			letter-spacing:-1px;
+			font-weight:600;
+			cursor:pointer;
+			text-indent: 7px;
+			line-height: 46px;
+		  }
+		  .tanpuraButton:hover{
+	      outline: solid #777 5px;
+	      outline-offset: 0px;
+/*				border-radius:5px;*/
+			}
+			#volumeControl {
+				display: block;
+				clear: both;
+				width: 300px;
+				height: 80px;
+				margin-top: 10px;
+				float: left;
+			}
+			.volumeButton{
+			  background-color:#ddd;
+			  width:20px;
+			  height:20px;
+			  float:left;
+			  margin-right:5px;
+			  color:white;
+  			font-size:28px;
+			letter-spacing:-1px;
+			font-weight:600;
+			cursor:pointer;
+			text-indent: 7px;
+			line-height: 46px;
+			}
+			
+			.volumeButton:hover{
+				background-color:#999;
+			}
+			.green{
+				background-color:#7bd819;
+			}
+			.grey{
+				background-color:#999;
+			}
+		  .tanpuraButtonShow{
+		  	display:block;
+		  }
+		  .tanpuraButtonHide{
+		  	display:none;
+		  }
+			.ti{
+				text-indent:17px;
+			}
+		#clients{
+			clear: both;
+			float: left;
+			width: 680px;
+			margin-top: 20px;
+			}
+    </style>
+</head>
+<body>
+	<div id='superContainer'>
+	<div id='container'>
+		<div id='header'>
+			<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>
+	    </div>
+		<h2>Hi! We're FOLO and we believe <a id='formButton'>form follows function&nbsp;&rarr;</a></h2>
+		<div id='bigImage'>
+					<div id='closeBigImage'></div>
+					<div id="slideshow">
+					        <img src="images/eng1.png" width="1000" height="489" />
+					        <img src="images/eng2.png" width="1000" height="489" />
+					        <img src="images/eng3.png" width="1000" height="489" />
+					        <img src="images/eng4.png" width="1000" height="489" />
+					        <img src="images/eng5.png" width="1000" height="489" />
+					        <img src="images/eng6.png" width="1000" height="489" />
+					        <img src="images/eng7.png" width="1000" height="489" />
+					        <img src="images/eng8.png" width="1000" height="489" />
+					        <img src="images/eng9.png" width="1000" height="489" />
+					        <img src="images/eng10.png" width="1000" height="489" />
+					        <img src="images/eng10.png" width="1000" height="489" />
+					</div>
+				</div>
+	<!-- <div style='height:4px; width:100%; background-color:#e5e5e5;'></div> -->
+	    <div id='wrapper'>
+			<div id='thePlace'>
+				<h2 style='margin-top:10px;margin-bottom:20px;' class='titleNew'>This is our workplace</h2>
+				<div class='placeImage tooltip' title="<img src='hover/printer.png' width='270' height='236'/>"><img style='' src='images/printer.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/cat.png' width='270' height='296'/>"><img style='' src='images/moumou.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/acoustic.png' width='270' height='294'/>"><img style='' src='images/acoustic.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/keyboard.png' width='270' height='179'/>"><img style='' src='images/midi.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/tabla.png' width='270' height='180'/>"><img style='' src='images/tabla.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/headphones.png' width='270' height='181'/>"><img style='' src='images/headphones.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/imac.png' width='270' height='236'/>"><img style='' src='images/imac.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/iphone.png' width='270' height='178'/>"><img style='' src='images/iphone.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/electric.png' width='270' height='296'/>"><img style='' src='images/esp.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/ipad.png' width='270' height='178'/>"><img style='' src='images/ipad.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/macbook.png' width='270' height='178'/>"><img style='' src='images/mbp.png'/></div>
+				<div class='placeImage tooltip' title="<img src='hover/keychain.png' width='270' height='116'/>"><img style='' src='images/keyring.png'/></div>
+			</div>
+			<div id='portfolio'>
+				<h2 style='margin-bottom: 5px;' class='titleNew'>These are the things we love to work on</h2>
+				<h2 style='margin-bottom:10px'><a href='portfolio/filter/information.html'>Information</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='portfolio/filter/interface.html'>Interface</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='portfolio/filter/mobile.html'>Mobile</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='portfolio/filter/identity.html'>Identity</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a  href='portfolio/filter/print.html'>Print</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href='portfolio/all.html'>All our work&rarr;</a></h2>
+				<h2 style='margin-top:20px;margin-bottom: 5px;' class='titleNew'>Some of our work</h2>
+				<div class='projectImage tooltip' title="<img src='portfolio/thumbs/hover/devanagari.png' width='215' height='215'/>"><a href='portfolio/devanagari.html'><img src='images/typo.png'/></a></div>
+				<div class='projectImage tooltip' title="<img src='portfolio/thumbs/hover/pai.png' width='215' height='215'/>"><a href='portfolio/pai.html'><img src='images/cis.png'/></a></div>
+				<div class='projectImage tooltip' title="<img src='portfolio/thumbs/hover/avazonicbranding.png' width='215' height='215'/>"><a href='portfolio/avazonic.html'><img src='images/avazonic.png'/></a></div>
+				<div class='projectImage tooltip' title="<img src='portfolio/thumbs/hover/sunglass.png' width='215' height='215'/>"><a href='portfolio/sunglass.html'><img src='images/sunglass.png'/></a></div>
+			</div>
+			<div id='thePeople'>
+				<h2 style='margin-top: 0px;margin-bottom: 15px;' class='titleNew'>The people</h2>
+				<div id='peopleTopHalf'>
+					<div class='personImage'><img style='margin-right:20px' src='images/girl.png'/></div>
+					<div class='personImage'><img style='margin-right:20px' src='images/boy.png'/></div>
+					<div class='personImage'><img style='margin-right:20px' src='images/boy.png'/></div>
+					<div class='personImage'><img style='margin-right:20px' src='images/girl.png'/></div>
+				</div>
+				<div id='peopleBottomHalf'>
+					<!-- <div id='adityaBox' class='person'>
+						<h3 style='margin-bottom: 2px;'>addiction</h3>
+						<h2>Psychoanalysis &amp; Writing</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE GADGET</h3>
+						<h2>Digital Watch</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE QUOTE</h3>
+						<h2>Meaninglessness is everywhere.</h2>
+					</div>
+					<div id='palakBox' class='person'>
+						<h3 style='margin-bottom: 2px;'>height</h3>
+						<h2>6'&nbsp;7"</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE GADGET</h3>
+						<h2>Digital Watch</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE QUOTE</h3>
+						<h2>Meaninglessness is everywhere.</h2>
+					</div>
+					<div id='priyankaBox' class='person'>
+						<h3 style='margin-bottom: 2px;'>height</h3>
+						<h2>7'&nbsp;7"</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE GADGET</h3>
+						<h2>Digital Watch</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE QUOTE</h3>
+						<h2>Meaninglessness is everywhere.</h2>
+					</div>
+					<div id='arnavBox' class='person'>
+						<h3 style='margin-bottom: 2px;'>height</h3>
+						<h2>8'&nbsp;7"</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE GADGET</h3>
+						<h2>Digital Watch</h2>
+						<h3 style='margin-bottom: 2px;'>FAVORITE QUOTE</h3>
+						<h2>Meaninglessness is everywhere.</h2>
+					</div> -->
+				</div>
+<!--			<div id='clients'>
+					<h2 class='titleNew'>Clients' Lounge</h2>
+					<h2 style='float: left; margin-right: 20px; margin-top: 10px;'><a target='_blank' href='http://folography.com/e_questionnaire.html'>For Epsilon&nbsp;&rarr;</a></h2>
+					<h2 style='margin-top: 10px;'><a target='_blank' href='http://folography.com/c_questionnaire.html'>For CALM&nbsp;&rarr;</a></h2>
+				</div> -->
+			</div>
+			<div id='info'>
+				<div style='background-color:#eaeaea; height:4px;margin-bottom:10px;'></div>
+				<h2 style='clear:both;margin-bottom:20px;'>We love information design and so we call ourselves information artists. Our work ranges from branding internet startups to working with the USAID to help prevention of school dropouts to helping promote openness and access to knowledge on the internet.</h2>
+			</div>
+		</div>
+		<div id='rightPane'>
+			<div id='openings'>
+				<h2 style='margin-bottom: 40px;'><a href='http://www.folography.com/openings.html'>Openings at FOLO&nbsp;&rarr;</a></h2>
+			</div>
+			<div id='tanpura'>
+				<h2 class='titleNew' style='margin-bottom:10px;'>Tanpura Machine</h2>
+				<div id='cSharp' class='tanpuraButton'>c#</div>
+				<div id='cSharpStop' class='tanpuraButton green tanpuraButtonHide'>c#</div>
+				<div id='d' class='tanpuraButton ti'>d</div>
+				<div id='dStop' class='tanpuraButton ti green tanpuraButtonHide'>d</div>
+				<div id='dSharp' class='tanpuraButton'>d#</div>
+				<div id='dSharpStop' class='tanpuraButton green tanpuraButtonHide'>d#</div>
+				<div id='e' class='tanpuraButton ti'>e</div>
+				<div id='eStop' class='tanpuraButton ti green tanpuraButtonHide'>e</div>
+				<div id='volumeControl'>
+					<div id='vol1' class='volumeButton'></div>
+					<div id='vol2' class='volumeButton'></div>
+					<div id='vol3' class='volumeButton'></div>
+					<div id='vol4' class='volumeButton'></div>
+					<div id='vol5' class='volumeButton'></div>
+				</div>
+			</div>
+			<h2 class='titleNew'>What we're guzzling</h2>
+			<h1 style='margin-top: 0px;'><a href='http://www.folography.com/portfolio/kitchen/manilla.html'>Manilla&nbsp;&rarr;</a></h1><br/>
+			<h3 style='margin-top: -67px;'>Cool refreshing mango smoothie</h3>
+			<div style='background-color:#eaeaea; height:2px'></div>
+			<h1 style='margin-top: 0px;'><a href='http://www.folography.com/portfolio/kitchen/jambo.html'>Jambo&nbsp;&rarr;</a></h1><br/>
+			<h3 style='margin-top: -67px;'>Thick, rich banana smoothie</h3>
+			<div style='background-color:#eaeaea; height:2px'></div>
+			<h1 style='margin-top: 0px;'><a href='http://www.folography.com/portfolio/kitchen/blackjackall.html'>Black Jack-All&nbsp;&rarr;</a></h1><br/>
+			<h3 style='margin-top: -67px;'>An evening dessert</h3>
+			<div style='background-color:#eaeaea; height:2px'></div>			
+			<!-- <h2>We have been comissioned by Avazonic to create a self-service portal for them.</h2> -->
+			<div id='railway'><img src='images/mumbai.gif'/ style='float:left;margin-top:-12px;margin-right: 10px;opacity:0.7'>
+				<h1 style='margin-left: -5px;'>Everyday, more people than the population of Hong Kong, commute on the Mumbai suburbuan railway system<a href='http://www.folography.com/portfolio/mumbaimetro.html'><br/>More&rarr;</a></h1>
+			</div>
+			<div id='musicPlayer'>
+				<h2 class='titleNew'>Our latest tune</h2>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/102435279&amp;color=ef4c45&amp;auto_play=false&amp;show_artwork=true"></iframe>	
+<h2 style='margin-top:10px'><a href='portfolio/music/folomusic.html'>All our music&rarr;</a></h2>
+
+			</div>
+		</div>
+		<div id='Credits'>
+			<h2 style='padding-top: 10px;' class='titleNew'>Credits</h2>
+			<br/><a href="http://thenounproject.com/noun/keyboard/#icon-No11627" target="_blank">Keyboard</a> designed by <a href="http://thenounproject.com/Renaud Mignerey" target="_blank">Renaud Mignerey</a> from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/guitar/#icon-No1100" target="_blank">Guitar</a> designed by <a href="http://thenounproject.com/dimewar" target="_blank">Gustavo Perez Rangel</a> from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/monitor/#icon-No9838" target="_blank">Monitor</a> designed by <a href="http://thenounproject.com/cengizsari" target="_blank">Cengiz SARI</a> from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/ipad/#icon-No417" target="_blank">iPad</a>  from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/iphone/#icon-No414" target="_blank">iPhone</a>  from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/cat/#icon-No9761" target="_blank">Cat</a> designed by <a href="http://thenounproject.com/richard.zeid" target="_blank">Richard Zeid</a> from The Noun Project
+		  &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;  <a href="http://thenounproject.com/noun/printer/#icon-No3184" target="_blank">Printer</a> designed by <a href="http://thenounproject.com/thereisnaught" target="_blank">Sam Ahmed</a> from The Noun Project
+	  	</div>			  
+  		<div id='getInTouch' style='margin-top:20px;'>
+  			
+			<h2 style='padding-bottom:0px;padding-top: 10px;margin-bottom:10px;' class='titleNew'>Get in touch with us</h2>
+			<h2 style='padding-bottom:20px;'>We're available for commissions, collaborations or just a cup of tea. <br/>Call us on +91 9882 506 138 or drop us an email on <a href="mailto:hi@folography.com" target="_blank">hi@folography.com</a></h2>
+		</div>
+		<div id='spreadTheWord'>
+			
+			<h2 class='titleNew' style='margin-bottom:10px'>Spread the word</h2>
+			<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffolography&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=recommend&amp;height=21" style="border: none; overflow: hidden; width: 140px; height: 25px; z-index: 9999; " scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+			<a href="https://twitter.com/folography" class="twitter-follow-button" data-show-count="false" data-lang="en">FOLO on twitter</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<h2 style='text-shadow:2px 0px 0px white; margin-bottom: 15px;color: #bbb;border: 2px dashed #BBB;width: 445px;padding: 3px 9px;border-radius: 3px;margin-top: 15px;'>This site is 100% hand-made by the FOLO team.</h2> <!-- with &#9829; -->	
+  		</div>			  
+		</div>			
+</body>
+</html>
+

@@ -3,7 +3,7 @@
 	    margin:0;
 	    font-family: 'Merriweather Sans', sans-serif;
 	    color:#333;
-		background-color:#f9f9f9;
+		background-color:#f4f4f4;
 	}
 	#header{
 	    color:#444444;
@@ -20,10 +20,11 @@
 		overflow:hidden;
 		text-indent:100%;
 		white-space:nowrap;			
-		width:100px;
-		height:29px;
+		width:120px;
+		height:70px;
 		margin:10px 0px 10px 0px;
 		display:block;
+		background-size:100%;
 	}
 	#wrapper {
 		width: 680px;
@@ -51,7 +52,7 @@
 	.button{
 		padding:10px 0px 10px 20px;
 		border-bottom:4px solid #e5e5e5;
-		color:#333333;
+		color:#e95524;
 		font-size:40px;
 	}
 	.smallButton{
@@ -63,7 +64,7 @@
 		color:#333;
 	}
 	.button:hover{
-		color:#e95524;
+		color:#333;
 	}
 	a{
 	    text-decoration:none;
@@ -85,7 +86,7 @@
 		font-size: 54px;
 		letter-spacing:-4px;
 		line-height: 52px;
-		text-shadow:2px 0px 1px white;
+		text-shadow:0px 2px 1px white;
 	}
 	h1 a{
 	    font-family: Helvetica, Arial, sans-serif;
@@ -274,4 +275,7 @@
 	  .smallImage{
 		  margin:10px 0px;
 	  }
+		#bigImage{
+			border-top: 10px solid #eaeaea;
+		}
 	</style>

@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Maitreya - FOLO's tribute to the movie Ship of Theseus</title>
+<link rel="icon" type="image/ico" href="favicon.ico"/>
+	
+<script type="text/javascript" src="../js/soundmanager2.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.anystretch.min.js"></script>
+<script>
+
+soundManager.setup({
+  url: '/path/to/swfs/',
+  flashVersion: 9,
+  preferFlash: false, // prefer 100% HTML5 mode, where both supported
+  onready: function() {
+
+  	var mySoundObject = soundManager.createSound({
+  	 url: 'maitreya.mp3'
+  	});
+  	mySoundObject.play();
+	
+  },
+  ontimeout: function() {
+  },
+  defaultOptions: {
+    // set global default volume for all sound objects
+    volume: 5
+  }
+});
+</script>
+<style>
+body{
+	background-color:#555;
+}
+#bg{
+	background:url('listen.png') no-repeat scroll;
+}
+</style>
+</head>
+<body>
+	<div id='bg'></div>
+    <script type="text/javascript">
+	$.anystretch("m.png", {speed: 1000});
+	</script>
+</body>
+</html>

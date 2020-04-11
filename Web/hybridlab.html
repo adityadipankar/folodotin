@@ -1,0 +1,129 @@
+<html>
+<head>
+    <title>FOLO</title>
+	<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+	<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+	
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					
+	<script>
+	        $(document).ready(function() {
+	            $('.tooltip').tooltipster();
+			});
+				$(document).ready(function() {
+					// $('#bigImage').style.height='400px';
+					$('#bigImage').toggle(function(){
+					    $('#bigImage').animate({'height': '658px'}, 200);
+					}, function(){
+					    $('#bigImage').animate({'height': '300px'}, 200);
+					});
+				});
+							
+				$(document).ready(function(){
+				    $("#bigImage").hover(function(){
+				        $('#expand').addClass("makeVisible").fadeIn();
+				    }, function() {
+				        $('#expand').removeClass("makeVisible").fadeOut();
+								});
+						});
+					
+    </script>
+    <script type="text/javascript">
+
+	function slideSwitch() {
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+        
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 100, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(function() {
+	    setInterval( "slideSwitch()", 2000 );
+	}); 
+    </script>
+	
+	<style>
+  #bigImage{
+	  width:1000px;
+	  margin:10px 0px;
+	  cursor:pointer;
+  }
+  #expand{
+	  position:relative;
+	  background-color:rgba(0,0,0,0.2);
+	  color:white;
+	  text-transform:uppercase;
+	  font-size:15px;
+	  font-family:Helvetica, Arial, sans-serif;
+	  font-weight:bold;
+	  padding:3px 2px 6px 3px;
+	  float:left;
+	  display:none;
+  }
+  .makeVisible{
+	  display:block;
+}
+  body{
+	background-color:#f9f9f9; 
+  }
+  .royale{
+	  font-family: 'Parisienne', cursive;
+	  font-size: 32px;
+	  color: #f4f4f4;
+	  text-shadow: 0px 1px 4px rgba(0,0,0,1);	 
+	  -mozilla-text-shadow:  0px 1px 4px rgba(0,0,0,1);
+	  margin-top: 4px;
+  }
+  #wrapper h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: 1px solid #c1c1c1;
+  float: left;
+  padding: 1px 4px;
+  }
+  #wrapper h2{
+	  clear:both;
+  }
+  .funky{
+  	font-family: 'Reenie Beanie', cursive;
+	color:#777;
+	font-size: 24px;
+  }
+	</style>
+</head>
+<body>
+	<div id='superContainer'>
+		<div id='container'>
+
+			<div id='header'>  <!-- The Header-->
+				<a href="http://www.folography.com/" title="FOLO" id="headerImg">FOLO</a>				
+				<h2 style='text-align:right'><a href='../../index.html' id='formButton'>&larr;&nbsp;back</a></h2>
+		    </div>
+
+		    <!-- <div id='wrapper'>	<!-- The Content-->
+				<h1 style='margin-top: 10px;margin-bottom: -18px;'>Applications invited for the hybrid interactions lab at FOLO. Funded for 3 years, this lab will incubate new interaction design paradigms, which have so far been culturally latent. 
+					<h2 style='margin-top:30px'>The first entrant will be an iOS developer. Applications open till October 5th. The lab will be mentored by FOLO and Prayas Abhinav.<br/><a href='mailto:hybrid@folography.com' style='margin-top:20px;float:left;'>Apply Here</a></h2> </h1>			
+			<!-- </div> -->
+		</div>
+	</div>		
+</body>
+</html>
+
+<!-- <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffolography&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font=lucida+grande&amp;colorscheme=light&amp;action=recommend&amp;height=21" style="border: none; overflow: hidden; width: 140px; height: 25px; position: fixed; top: 15px; z-index: 9999; left: 660px;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+<a href="https://twitter.com/Folography" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" style='position:fixed; top:15px; left:800px; z-index:999;'>Follow @Folography</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+
